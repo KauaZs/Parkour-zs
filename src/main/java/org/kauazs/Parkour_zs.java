@@ -23,9 +23,9 @@ public final class Parkour_zs extends JavaPlugin {
        getServer().getPluginManager().registerEvents(new ClickEvent(), this);
        getServer().getPluginManager().registerEvents(new ArmorStandManipulate(), this);
        getServer().getPluginManager().registerEvents(new onPlayerMove(), this);
-        getServer().getPluginManager().registerEvents(new DamageEvent(), this);
-        getServer().getPluginManager().registerEvents(new PlayerDisconnect(), this);
-        getServer().getPluginManager().registerEvents(new PlayerDrop(), this);
+       getServer().getPluginManager().registerEvents(new DamageEvent(), this);
+       getServer().getPluginManager().registerEvents(new PlayerDisconnect(), this);
+       getServer().getPluginManager().registerEvents(new PlayerDrop(), this);
        spawnHolograms();
 
     }
