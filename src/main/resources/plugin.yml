@@ -1,0 +1,8 @@
+name: parkour-zs
+version: '${project.version}'
+main: org.kauazs.Parkour_zs
+commands:
+  create-parkour:
+    description: Cria um parkour
+    aliases: [setup]
+    usage: create-parkour <id>
